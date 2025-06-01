@@ -4,6 +4,8 @@ import SmartMatch from './SmartMatch';
 import LocationFilter from './LocationFilter';
 import GiftsReactions from './GiftsReactions';
 import NotificationHandler from './NotificationHandler';
+import SwipeDeck from './SwipeDeck';
+import AIProfileSummary from './AIProfileSummary';
 
 function App() {
   return (
@@ -14,6 +16,16 @@ function App() {
       <SmartMatch />
       <LocationFilter />
       <GiftsReactions />
+      <SwipeDeck />
+      <AIProfileSummary
+        profile={{
+          name: 'Emily',
+          age: 27,
+          interests: ['йога', 'подорожі', 'музика'],
+          goal: 'серйозні стосунки',
+          traits: ['добра', 'весела', 'цілеспрямована']
+        }}
+      />
     </div>
   );
 }
