@@ -1,11 +1,8 @@
-import React from 'react';
-
 function App() {
   return (
-    <div>
-      <a href="https://reactjs.org">Learn React</a>
+    <div className="flex items-center justify-center h-screen bg-black text-white text-3xl">
+      HelloLove is working! 💖
     </div>
   );
 }
-
 export default App;
