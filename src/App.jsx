@@ -1,8 +1,11 @@
+import React from 'react';
+
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen bg-black text-white text-3xl">
-      HelloLove is working! 💖
+    <div style={{ backgroundColor: "black", color: "white", height: "100vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
+      HelloLove is working 💘
     </div>
   );
 }
+
 export default App;
