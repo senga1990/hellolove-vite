@@ -1,8 +1,12 @@
+// src/App.jsx
+import React from 'react';
 import HeroSection from './HeroSection';
 
 function App() {
   return (
-    <HeroSection />
+    <div>
+      <HeroSection />
+    </div>
   );
 }
 
