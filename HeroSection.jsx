@@ -7,7 +7,7 @@ export default function HeroSection() {
     hearts.forEach((el, i) => {
       el.style.animationDelay = `${i * 0.5}s`;
     });
-  }, []);
+  }, []); 
 
   return (
     <div
