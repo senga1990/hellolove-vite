@@ -1,11 +1,8 @@
-import React from 'react';
-import HeroSection from './components/HeroSection';
+import HeroSection from './HeroSection';
 
 function App() {
   return (
-    <div className="min-h-screen">
-      <HeroSection />
-    </div>
+    <HeroSection />
   );
 }
 
