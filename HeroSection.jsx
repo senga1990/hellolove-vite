@@ -12,7 +12,7 @@ export default function HeroSection() {
   return (
     <div
       className="relative min-h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: `url("hero.jpg")` }} // <-- оновлений шлях
+      style={{ backgroundImage: `url("/hero.jpg")` }}
     >
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center px-4 text-center">
         <h1 className="text-white text-4xl md:text-6xl font-bold mb-6 animate-fadeInUp">
