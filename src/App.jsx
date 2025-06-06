@@ -1,10 +1,10 @@
-// src/App.jsx
-import React from 'react';
-import HeroSection from './HeroSection';
+import React from "react";
+import HeroSection from "./HeroSection";
+import "./index.css";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <HeroSection />
     </div>
   );
